@@ -297,7 +297,61 @@ footer a {
     text-decoration: none;
 }
 
-.footer--copygryth{
+.footer--copygryth {
     margin-top: 14px;
     color: #787777;
+}
+
+@media (min-width: 1024px) {
+
+    /* CSS */
+    header {
+        height: 100vh;
+        background-image: url(./assets/IMG/BG-desktop.png);
+    }
+    .header--info-container{
+        border: 1px solid red;
+        margin-left: 154px;
+    }
+    .header--title-container h4 {
+        font-family: Roboto;
+        font-size: 22px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 10px;
+    }
+    .header--info-container h2{
+        margin-top: 132px;
+        font-size: 3.2rem;
+    }
+
+    .header--CTA .header--button_CTA {
+        width: 50%;
+    }
+
+    .header--CTA_p {
+        text-align: left;
+        align-self: flex-start;
+    }
+
+    .header--info_icons {
+        padding: 4px;
+        justify-content: center;
+    }
+
+    .header-info_icons-item {
+        width: 242px;
+        margin-right: 12px;
+    }
+
+    .main--card-container {
+        width: auto;
+        justify-content: center;
+        flex-direction: row;
+        margin: 0 auto;
+    }
+
+    .main-authority-container {
+        display: flex;
+    }
 }
