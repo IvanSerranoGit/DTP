@@ -115,6 +115,7 @@ header {
     color: #000;
     border-radius: 100px;
     background-color: var(--green-CTA);
+    border: none;
 }
 
 .header--info_icons {
@@ -150,4 +151,85 @@ header {
 .header-info_icons-items {
     display: flex;
     flex-direction: column;
+}
+
+main {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+main h2 {
+    margin-top: 32px;
+    text-align: center;
+    font-size: 2rem;
+    color: var(--red-DTP);
+}
+
+.main--card-container {
+    width: 100%;
+    min-width: 375px;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.card {
+    width: 315px;
+    height: 183px;
+    padding: 40px;
+    border-radius: 15px;
+    background: var(--Set-01---color-59, #FFF);
+    box-shadow: 2px 2px 2px 0px rgba(0, 0, 0, 0.25);
+    text-align: center;
+    margin-bottom: 16px;
+}
+
+.card p {
+    margin-top: 21px;
+    font-size: 1.2rem;
+    
+}
+
+.main-authority-container {
+    width: 100%;
+    min-width: 375px;
+    padding: 4px 30px;
+    height: auto;
+}
+.main-authority-container p{
+    margin-top: 16px;
+    margin-bottom: 27px;
+    font-size: 1.2rem;
+    line-height: 16px;
+    font-style: normal;
+    font-weight: 400;
+}
+
+.main-authority-container i{
+    color: #FD346E;
+    margin-right: 4px;
+    
+}
+
+.main-authority-container li{
+    align-items: center;
+    margin-top: 12px;
+    list-style: none;
+    font-size: 1.2rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px; /* 266.667% */
+}
+
+.main--cta-container{
+    width: 100%;
+    min-width: 375px;
+    height: auto;
+    padding: 4px 30px;
+    margin-top: 16px;
+    background-image: url(./assets/IMG/BG-mobile_CTA.png);
 }
