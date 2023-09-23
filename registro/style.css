@@ -21,6 +21,7 @@
 html {
     font-size: 62.5%;
     font-family: 'Roboto', sans-serif;
+    color: #000;
 }
 
 body {
@@ -353,5 +354,12 @@ footer a {
 
     .main-authority-container {
         display: flex;
+        flex-direction: column;
+        width: auto;
+    }
+    .main-authority-container ul{
+        margin: 0 auto;
+        border: 1px solid red;
+
     }
 }
